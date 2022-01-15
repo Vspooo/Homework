@@ -1,66 +1,68 @@
-.border {
-    width: 520px;
-    height: 500px;
-    border: 1px solid black;
-    border-radius: 10px;
-
-
-}
-
-.a {
-    width: 510px;
-    height: 200px;
-    border: silver 1px solid;
-  background-color: cornflowerblue;
-    border-radius: 10px;
-   margin-top: 5px;
-  margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    text-align: center;
-   box-sizing: border-box;
-    padding-top: 80px;
-
-
-
-}
-
-
-.b{
-    width: 300px;
-    height: 285px;
-    border: 1px solid silver;
-    background-color: brown;
-    border-radius: 10px;
-    margin-top: 5px ;
-    margin-bottom: 5px ;
-    margin-left: 5px ;
-    margin-right: 5px ;
+.head {
+    width: 650px;
+    height: 50px;
+    border-bottom: 1px solid skyblue;
+    background-color: cornflowerblue;
+    color: white;
     text-align: center;
     box-sizing: border-box;
-    padding-top: 130px;
-
-
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
-.c{
+.naV {
+    width: 650px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+}
+
+.maiN {
+    width: 450px;
+    height: 400px;
+    background-color: cadetblue;
+    color: black;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+}
+
+
+.asIde {
     width: 200px;
-    height: 285px;
-    border: 1px solid silver;
-    background-color: #fa7f03;
-    border-radius: 10px;
-    margin-top: 5px ;
-    margin-bottom: 5px ;
-    margin-left: 5px ;
-    margin-right: 5px ;
+    height: 400px;
+    background-color: brown;
+    color: white;
     text-align: center;
     box-sizing: border-box;
-    padding-top: 130px;
-    position: relative;
-    bottom: 288px;
-    left: 310px;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
 
+
+}
+
+
+#main-aside {
+    display: flex;
+
+
+}
+
+.fooTer{
+    width: 650px;
+    height: 50px;
+    background-color: cyan;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
 
 
 }
